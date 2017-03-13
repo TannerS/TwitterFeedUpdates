@@ -1,0 +1,17 @@
+{
+  "name": "twitterfeedupdates",
+  "version": "1.0.0",
+  "description": "Get twitter tweets and pushes them to elastic search",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanner Summers",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^12.1.3",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "twitter": "^1.7.0"
+  }
+}
